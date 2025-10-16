@@ -1,7 +1,7 @@
 from langdetect import detect, DetectorFactory
-from detect_script import detect_script as script_detect
+# FIX: Renamed from detect_script to script_detector
+from script_detector import detect_script as script_detect
 import re
-
 # Set seed for consistent results
 DetectorFactory.seed = 0
 
